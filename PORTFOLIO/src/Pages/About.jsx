@@ -65,13 +65,14 @@ const About = () => {
         </div>
 
          <div className='Fronted'>
-          <h1>Fronted</h1>
+          <h1>Tools & Platforms</h1>
           <button>Git</button>
           <button style={{marginLeft:"10px"}}>Vercel</button>
           <button style={{marginLeft:"10px"}}>Render</button>
           <button style={{marginLeft:"10px"}}>Firebase</button>
           <button style={{marginLeft:"10px", marginTop:"10px"}}>Netlify</button>
           <button style={{marginTop:"10px"}}>Github</button>
+          <button style={{ marginLeft:"10px",marginTop:"10px"}}>Coursel</button>
         </div>
       </div>
 

@@ -63,6 +63,10 @@
   border-radius: 15px;
 }
 
+.skill-card:hover{
+    box-shadow: 0px 1px 0px 2px blue;
+}
+
 .skill-card h2 {
   color: black;
   margin-bottom: 20px;
@@ -77,6 +81,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
+  color: rgb(243, 60, 40);
 }
 
 /* Progress bar */
@@ -93,3 +98,38 @@
   background: linear-gradient(to right, #3b82f6, #2563eb);
   transition: width 1s ease;
 }
+
+.Learning{
+    border: 2px solid rgb(149, 149, 253);
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background:linear-gradient(135deg,rgb(185, 237, 254),#9ebce9);
+    border-radius: 10px;
+}
+
+.Learning>h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Learning>p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.Learning>button{
+    width: 250px;
+    padding: 10px;
+    background:linear-gradient(135deg,rgb(185, 237, 254),#9ebce9);
+    color: gray;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.btn1{
+    margin-top: 40px;
+}
+
