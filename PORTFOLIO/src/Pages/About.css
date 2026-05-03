@@ -1,0 +1,120 @@
+.About{
+    margin-top: 40px;
+    background-color: rgba(128, 128, 128, 0.071);
+}
+
+.text{
+    text-align: center;
+}
+
+.text>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.text>h1>span{
+    text-decoration:underline;
+}
+
+.text>h3{
+    color: rgb(128, 128, 128);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.journey{
+    text-align:justify;
+    width: 1100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(209, 241, 252, 0.473);
+    padding: 12px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.281);
+}
+
+.journey>h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+}
+
+.journey>p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.text1>h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+.Tools{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+}
+
+.Tools>.Academic{
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: rgba(166, 237, 237, 0.304);
+}
+
+.Tools>.Academic>.icon{
+    color: blue;
+}
+
+.Tools>.Academic>h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;    
+}
+
+.Tools>.Academic>p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: -10px;
+}
+
+.text2{
+    text-align: center;
+}
+
+.text2>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+.Skill{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+}
+
+.Fronted{
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgba(166, 237, 237, 0.304);
+    padding-bottom:10px;
+    border: none;
+    box-shadow: 1px 1px 2px 0px gray;
+}
+
+.Fronted>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Fronted>button{
+    border-radius: 8px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+}

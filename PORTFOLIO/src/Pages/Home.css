@@ -82,3 +82,71 @@
     color: gray;
     margin-left: -2px;
 }
+
+/* ===== RESPONSIVE ONLY ===== */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .Flex-Direction {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Bio {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .Bio > h1 {
+    font-size: 34px;
+  }
+
+  .Bio > h2 {
+    font-size: 22px;
+    margin-left: 0;
+  }
+
+  .Bio > p {
+    margin-left: 0;
+  }
+
+  .Details {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .small {
+    margin: 10px auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .Bio > h1 {
+    font-size: 26px;
+  }
+
+  .Bio > h2 {
+    font-size: 18px;
+  }
+
+  .Bio > p {
+    font-size: 14px;
+  }
+
+  .Details > img {
+    width: 150px;
+  }
+
+  .small {
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .small > .small1 > h2 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+}
