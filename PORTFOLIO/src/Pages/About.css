@@ -1,6 +1,7 @@
 .About{
     margin-top: 40px;
     background-color: rgba(128, 128, 128, 0.071);
+    padding-bottom: 40px;
 }
 
 .text{
@@ -117,4 +118,69 @@
     background-color: blue;
     color: white;
     border: none;
+}
+
+
+/* ===== TABLET ===== */
+@media (max-width: 992px) {
+  .journey {
+    width: 90%;
+  }
+
+  .Tools {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Tools > .Academic {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .Skill {
+    flex-wrap: wrap;
+  }
+
+  .Fronted {
+    width: 45%;
+  }
+
+  .Fronted>button{
+    margin-left: 10px;
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 576px) {
+  .text > h1 {
+    font-size: 28px;
+  }
+
+  .text > h3 {
+    font-size: 13px;
+  }
+
+  .journey {
+    width: 95%;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .Tools {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .Tools > .Academic {
+    width: 95%;
+  }
+
+  .Skill {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Fronted {
+    width: 90%;
+  }
 }
