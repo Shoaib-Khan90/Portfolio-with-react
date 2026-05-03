@@ -1,0 +1,180 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+  transition: 0.3s;
+  /* border: 2px solid black; */
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2),
+            0 3px 10px rgba(120, 120, 120, 0.15);
+            height: 40px;
+}
+
+.h1{
+    font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(237, 22, 237);
+}
+
+/* DARK MODE NAVBAR */
+.dark-nav {
+  background: #1e1e1e;
+
+}
+
+/* NAV LIST */
+.nav-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* LINKS */
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.dark-nav .nav-link {
+  color: white;
+}
+
+/* ACTIVE LINK */
+.nav-link:hover {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* ================= SWITCH ================= */
+
+.toggleWrapper {
+  position: relative;
+}
+
+.input {
+  display: none;
+}
+
+.toggle {
+  cursor: pointer;
+  width: 60px;
+  height: 30px;
+  background: #111;
+  display: block;
+  border-radius: 50px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* circle */
+.toggle__handler {
+  width: 24px;
+  height: 24px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: 0.3s;
+}
+
+/* checked state */
+.input:checked + .toggle .toggle__handler {
+  transform: translateX(30px);
+  background: yellow;
+}
+
+/* BODY DARK MODE */
+body.dark {
+  background: #121212;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  .nav-list {
+    gap: 20px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .h1 {
+    font-size: 24px;
+  }
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .toggleWrapper {
+    margin-top: 10px;
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-link {
+    font-size: 13px;
+  }
+
+  .h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .toggle {
+    width: 50px;
+    height: 26px;
+  }
+
+  .toggle__handler {
+    width: 20px;
+    height: 20px;
+  }
+
+  .input:checked + .toggle .toggle__handler {
+    transform: translateX(24px);
+  }
+}
