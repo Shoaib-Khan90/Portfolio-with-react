@@ -1,0 +1,92 @@
+.Works{
+    margin-top: 40px;
+      background-color: rgba(128, 128, 128, 0.071);
+}
+
+.text4{
+    text-align: center;
+}
+
+.text4>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.text4>h1>span{
+    color: blue;
+}
+
+.Projects{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 45px;
+}
+
+.project{
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(219, 246, 255);
+    padding: 10px;
+    padding-bottom: 15px;
+      transition: all 0.5s ease;
+      margin-left: 10px;
+        border: 1px solid transparent;
+}
+
+.project:hover{
+     transform: scale(1.08);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    background: #f0f8ff;
+      border: 1px solid rgba(0, 123, 255, 0.3);
+}
+
+.img{
+        text-align: center;
+        background-color: antiquewhite;
+}
+
+.img>img{
+    border-radius: 10px;
+}
+
+.project>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin-left: 5px;
+}
+
+.project>p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 5px;
+}
+
+.project>button{
+    width: auto;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+
+}
+
+.links{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.links>button{
+    width: 160px;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+
+.links>button>a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
