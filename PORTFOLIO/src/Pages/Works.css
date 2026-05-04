@@ -1,6 +1,7 @@
 .Works{
     margin-top: 40px;
       background-color: rgba(128, 128, 128, 0.071);
+      padding-bottom: 30px;
 }
 
 .text4{
@@ -89,4 +90,68 @@
     list-style: none;
     text-decoration: none;
     color: white;
+}
+
+/* ================= WORKS RESPONSIVE ================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .Projects {
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .project {
+    width: 45%;
+    margin-left: 0;
+  }
+
+  .text4 > h1 {
+    font-size: 32px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+
+  .Works {
+    padding: 20px 10px;
+  }
+
+  .text4 > h1 {
+    font-size: 26px;
+  }
+
+  .Projects {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .project {
+    width: 95%;
+    margin-left: 0;
+  }
+
+  .img > img {
+    width: 40%;
+    height: auto;
+  }
+
+  .project > h1 {
+    font-size: 20px;
+  }
+
+  .project > p {
+    font-size: 14px;
+  }
+
+  .links > button {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .links > .btn2{
+    margin-top: 10px;
+  }
 }
