@@ -1,0 +1,163 @@
+.Contact{
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Main-container{
+    border: 2px solid #f0f8ff;;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.data{
+    text-align: center;
+}
+
+.data>img{
+    border-radius: 50%;
+}
+
+.data>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.data>h1>span{
+    color:blue;
+}
+
+.data>h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.data>h2>span{
+    color: blue;
+}
+
+.email{
+    border: 1px solid transparent;
+    width: 800px;
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+     transition: all 0.5s ease;
+}
+
+.email:hover{
+              transform: scale(1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    background: #f0f8ff;
+      border: 1px solid rgba(0, 123, 255, 0.3);
+}
+
+.email>.icon{
+    margin-top: 25px;
+    color:blue;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.data1{
+    margin-left: 20px;
+}
+
+.data1>p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.Find{
+        text-align: center;
+}
+
+.Find>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:gray;
+    margin-top: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.button>button{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+     background-color: #f0f8ff;
+     transition: all 0.5s ease;
+     border: 1px solid transparent;
+}
+
+.button>button:hover{
+      transform: scale(1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    background: #f0f8ff;
+      border: 1px solid rgba(0, 123, 255, 0.3);
+}
+
+.button>button>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+}
+
+/* ================= CONTACT RESPONSIVE ================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+
+  .Main-container {
+    width: 90%;
+  }
+
+  .email {
+    width: 98%;
+    margin-left: 0;
+    flex-direction: row;
+  }
+
+  .button > button {
+    width: 45%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+
+  .Contact {
+    padding: 10px;
+  }
+
+  .Main-container {
+    width: 85%;
+    padding: 40px;
+  }
+
+  .email {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .email > .icon {
+    margin: 10px 0 0 0;
+  }
+
+  .button {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button > button {
+    width: 95%;
+  }
+}
