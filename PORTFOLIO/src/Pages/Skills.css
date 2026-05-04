@@ -1,6 +1,7 @@
 .Skills{
     margin-top: 40px;
      background-color: rgba(128, 128, 128, 0.071);
+     padding-bottom: 40px;
 }
 
 .text3{
@@ -93,6 +94,7 @@
   overflow: hidden;
 }
 
+
 .progress-bar {
   height: 100%;
   background: linear-gradient(to right, #3b82f6, #2563eb);
@@ -130,6 +132,71 @@
 }
 
 .btn1{
-    margin-top: 40px;
+    margin-top: 50px;
+    text-align: center;
 }
+
+
+@media (max-width: 992px) {
+
+  .journey {
+    width: 90%;
+  }
+
+  .Tools {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Tools > .Academic {
+    width: 45%;
+  }
+
+  .Skill {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Fronted {
+    width: 45%;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  body {
+    display: flex;
+    overflow-x: hidden;
+  }
+
+  .text > h1 {
+    font-size: 26px;
+  }
+
+  .journey {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .Tools {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Tools > .Academic {
+    width: 95%;
+  }
+
+  .Skill {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .Fronted {
+    width: 95%;
+  }
+}
+
 

@@ -126,10 +126,10 @@ const Skills = () => {
       </div>
         <div className="btn1">
      <Link to="/works">
-     <button>View My Projects</button>
+     <button style={{width:"150px", padding:"15px", borderRadius:"10px", backgroundColor:"blue", color:"white", border:"none"}}>View My Projects</button>
      </Link>
      <Link to="/contact">
-     <button>Lets Collaborate</button>
+     <button style={{width:"150px", padding:"15px", borderRadius:"10px", backgroundColor:"blue", color:"white", border:"none", marginLeft:"20px"}}>Lets Collaborate</button>
      </Link>
      </div>
     </div>
