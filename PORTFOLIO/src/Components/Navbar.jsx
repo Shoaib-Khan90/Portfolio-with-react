@@ -33,7 +33,7 @@ function Navbar() {
       
       {/* NAV LINKS */}
       <nav>
-        <ul className="nav-list">
+        <ul  className="nav-list">
           {navItems.map((item) => (
             <li key={item.name}>
               <Link

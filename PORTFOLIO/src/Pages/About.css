@@ -154,6 +154,9 @@
 
 /* ===== MOBILE ===== */
 @media (max-width: 576px) {
+  .text{
+    margin-top: 150px;
+  }
   .text > h1 {
     font-size: 28px;
   }

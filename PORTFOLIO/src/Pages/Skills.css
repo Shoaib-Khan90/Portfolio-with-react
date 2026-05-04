@@ -13,6 +13,7 @@
     font-weight: 600;
     font-size: 40px;
     color: blue;
+    margin-top: 90px;
 }
 
 .text3>p{
@@ -143,6 +144,10 @@
     width: 90%;
   }
 
+  .text3{
+    margin-top: 130px;
+  }
+
   .Tools {
     flex-wrap: wrap;
     justify-content: center;
@@ -170,6 +175,9 @@
     overflow-x: hidden;
   }
 
+  .text3{
+    margin-top: 200px;
+  }
   .text > h1 {
     font-size: 26px;
   }
