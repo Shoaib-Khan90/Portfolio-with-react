@@ -14,7 +14,7 @@ const Contact = () => {
     <div className='Contact'>
       <div className='Main-container'>
       <div className='data'>
-      <img src="./src/Images/img2.png" width="250px" alt="" />
+      <img src="./Images/img2.png" width="250px" alt="" />
       <h1>Connect With <span>Syed Shoaib</span></h1>
       <h2>Age : <span> 22 </span> Years </h2>
       </div>

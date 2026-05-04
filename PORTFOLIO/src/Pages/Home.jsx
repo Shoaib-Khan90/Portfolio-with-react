@@ -40,7 +40,7 @@ const Home = () => {
       </Link>
       </div>
       <div className ='Details'>
-      <img src="./src/Images/img3.png" alt="image" width="250px" />
+      <img src="./Images/img3.png" alt="image" width="250px" />
       <div style={{display:"flex"}}>
       <div className='small'>
           <FontAwesomeIcon className='icon' icon={faCode} size="2x" />

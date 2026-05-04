@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className='About'>
       <div className='text'>
-      <img style={{borderRadius:"50%", marginTop:"50px"}} src="./src/Images/img1.png" width="250px"  alt="" />
+      <img style={{borderRadius:"50%", marginTop:"50px"}} src="./Images/img1.png" width="250px"  alt="" />
       <h1>Abo<span style={{color:"blue", textDecoration:"underline"}}>ut</span> Me </h1>
       <h3>A passionate developer and learner on a continues journey of growth and innovation.</h3>
       </div>
