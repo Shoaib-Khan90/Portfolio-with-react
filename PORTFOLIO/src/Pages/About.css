@@ -193,13 +193,14 @@
 }
 
 @media  (max-width : 390px) {
-  .text{
+  .About{
     margin-top: 250px;
   }
+
 }
 
 @media  (max-width : 480px) {
-  .text{
+  .About{
     margin-top: 250px;
   }
 }
