@@ -27,7 +27,7 @@ const About = () => {
       <div className='Academic'>
       <FontAwesomeIcon className='icon' icon={faGraduationCap} size="2x" />
       <h2>Academic Foundation</h2>
-      <p>2nd year Pre-Engineering From Govt College Formen Nazimabad .</p>
+      <p>Intermediate Pre-Engineering From Govt College For men Nazimabad .</p>
       </div>
 
         <div className='Academic'>
