@@ -157,3 +157,9 @@
     margin-top: 10px;
   }
 }
+
+@media  (max-width : 390px) {
+ .text4>h1{
+  margin-top: 250px;
+ }
+}

@@ -207,4 +207,68 @@
   }
 }
 
+@media (max-width: 390px) {
 
+  .text3{
+    margin-top: 300px;
+  }
+
+  .text3 > h1 {
+    font-size: 22px;
+  }
+
+  .text3 > p {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .Card {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .Card > .Technologies {
+    width: 95%;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr; /* single column */
+    gap: 15px;
+  }
+
+  .skill-card {
+    padding: 15px;
+  }
+
+  .skill-card h2 {
+    font-size: 18px;
+  }
+
+  .skill-top {
+    font-size: 14px;
+  }
+
+  .Learning {
+    width: 95%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .Learning > h1 {
+    font-size: 18px;
+  }
+
+  .Learning > p {
+    font-size: 13px;
+  }
+
+  .Learning > button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .btn1 {
+    margin-top: 30px;
+  }
+}

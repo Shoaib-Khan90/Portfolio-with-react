@@ -191,3 +191,9 @@
     width: 90%;
   }
 }
+
+@media  (max-width : 390px) {
+  .text{
+    margin-top: 250px;
+  }
+}
