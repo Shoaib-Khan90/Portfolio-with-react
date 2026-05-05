@@ -163,3 +163,26 @@
   margin-top: 250px;
  }
 }
+
+@media  (max-width : 480px) {
+ .text4>h1{
+  margin-top: 250px;
+ }
+}
+
+@media  (max-width : 768px) {
+ .text4>h1{
+  margin-top: 200px;
+ }
+}
+
+@media  (max-width : 1200px) {
+.Projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+}
+
+
+

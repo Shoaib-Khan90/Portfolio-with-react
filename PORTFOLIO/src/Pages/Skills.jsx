@@ -121,8 +121,8 @@ const Skills = () => {
         <h1>Continues Learning</h1>
         <p>Technology evolves rapidly, and so do I. I'm constantly learning new frameworks, exploring emerging technologies, and refining my existing skills. My journey in tech is just beginning, and I'm excited about what lies ahead.</p>
         <button>Currently Learning : Next.Js </button>
-        <button style={{marginLeft:"20px"}}>Next Goal : Express.Js </button>
-        <button style={{marginLeft:"20px"}}>Exploring : AI/ML </button>
+        <button className="btn2">Next Goal : Express.Js </button>
+        <button className="btn2">Exploring : AI/ML </button>
       </div>
         <div className="btn1">
      <Link to="/works">

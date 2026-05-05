@@ -197,3 +197,16 @@
     margin-top: 250px;
   }
 }
+
+@media  (max-width : 480px) {
+  .text{
+    margin-top: 250px;
+  }
+}
+
+
+@media  (max-width : 768px) {
+  .text{
+    margin-top: 150px;
+  }
+}
